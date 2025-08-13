@@ -1,0 +1,11 @@
+s = "  illu minati ";
+console.log(s,s.length);
+console.log(s.toUpperCase());
+console.log(s.toLowerCase());
+console.log(s.trim());
+console.log(s.indexOf('i'));
+console.log(s.lastIndexOf('i'));
+console.log(s.charAt(3)); //this is useless we can use s[3];
+console.log(s.slice(3));
+console.log(s.slice(4,8));
+console.log(s.split(' '));
